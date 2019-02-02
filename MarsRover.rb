@@ -13,7 +13,7 @@ class Location
 end
 
 #insted of using a 2D projection of a sphere
-#a simple grid will represent the planet of the surface
+#a simple grid will represent the surface of the planet
 class Planet
   attr_reader :circumference, :obstacles
   def initialize(circumference: 10, obstacles: [])
